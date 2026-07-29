@@ -14,7 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "govuk-frontend": "^6.3.0",
+    "govuk-frontend": "^6.4.0",
     "sass": "^1.101.0"
   }
 }
