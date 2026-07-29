@@ -1,5 +1,7 @@
-PATH
-  remote: ../govuk_publishing_components
+GIT
+  remote: https://github.com/alphagov/govuk_publishing_components.git
+  revision: c156b3e2acf05993a51f45d3cac8865642a5b5e7
+  branch: link-decoration
   specs:
     govuk_publishing_components (66.9.0)
       chartkick
