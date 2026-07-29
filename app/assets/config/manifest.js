@@ -1,0 +1,16 @@
+//= link govuk-frontend.min.css
+//= link govuk_publishing_components/analytics-ga4.js
+//= link favicon.svg
+//= link govuk-icon-mask.svg
+//= link govuk-icon-180.png
+//= link govuk-frontend.min.js
+//= link govuk_publishing_components/all_components.js
+//= link govuk_publishing_components/dependencies.js
+//= link govuk_publishing_components/analytics-ga4/init-ga4.js
+//= link favicon.ico
+//= link_tree ../builds
+//= link component_guide/application.css
+//= link application.js
+//= link controllers/application.js
+//= link controllers/hello_controller.js
+//= link controllers/index.js
