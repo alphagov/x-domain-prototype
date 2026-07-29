@@ -42,6 +42,12 @@
                 "description": "If provided, it will be used as the initial value of the input."
             },
             {
+                "name": "error",
+                "type": "boolean",
+                "required": false,
+                "description": "If set to `true`, it will show a red error border on the item input. If provided, you must set the top-level `errorMessage` option to add an error message to the date input component."
+            },
+            {
                 "name": "autocomplete",
                 "type": "string",
                 "required": false,
@@ -147,6 +153,50 @@
         "required": false,
         "description": "Can be used to add a fieldset to the date input component.",
         "isComponent": true
+    },
+    {
+        "name": "day",
+        "type": "object",
+        "required": false,
+        "description": "Options for the day input within the date input component. See items."
+    },
+    {
+        "name": "month",
+        "type": "object",
+        "required": false,
+        "description": "Options for the month input within the date input component. See items."
+    },
+    {
+        "name": "year",
+        "type": "object",
+        "required": false,
+        "description": "Options for the year input within the date input component. See items."
+    },
+    {
+        "name": "values",
+        "type": "object",
+        "required": false,
+        "description": "Specify `value` attributes for the date parts without setting items. You can also use the `name` for the fields as keys, including any `namePrefix`.",
+        "params": [
+            {
+                "name": "day",
+                "type": "string",
+                "required": false,
+                "description": "The `value` attribute for the day input."
+            },
+            {
+                "name": "month",
+                "type": "string",
+                "required": false,
+                "description": "The `value` attribute for the month input."
+            },
+            {
+                "name": "year",
+                "type": "string",
+                "required": false,
+                "description": "The `value` attribute for the year input."
+            }
+        ]
     },
     {
         "name": "classes",
