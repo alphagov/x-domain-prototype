@@ -42,6 +42,7 @@ gem "image_processing", "~> 1.2"
 
 gem "govuk_publishing_components", path: "../govuk_publishing_components"
 gem "dartsass-rails"
+gem "rubocop-govuk", require: false
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
