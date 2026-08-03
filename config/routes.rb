@@ -1,16 +1,5 @@
 Rails.application.routes.draw do
-  # 1. juggling-license
   get "/juggling-license" =>"juggling_license#index"
-
-  # 2. juggling-videos.local:3000
-  constraints ->(req) { req.host == "juggling-videos.local" } do
-    root to: "juggling_videos#index", as: :video_root
-  end
-
-  # 3. example.gov.local:3000
-  constraints ->(req) { req.host == "example.gov.local" } do
-    root to: "example_gov#index", as: :example_gov_root
-  end
 
   mount GovukPublishingComponents::Engine, at: "/component-guide" if Rails.env.development?
 
